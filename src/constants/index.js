@@ -253,7 +253,7 @@ export const benefits = [
   {
     id: "1",
     title: "Continuous Improvement",
-    text: "Utilizing advanced natural language processing (NLP) algorithms, the app continuously refines its understanding to deliver contextually relevant responses.",
+    text: "Utilizing advanced NLP algorithms, the app continuously refines its understanding to deliver contextually relevant responses.",
     backgroundUrl: "./src/assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
