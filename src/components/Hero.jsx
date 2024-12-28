@@ -23,7 +23,7 @@ const Hero = () => {
       <div className="container relative" ref={parallaxRef}>
         <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb-[6.25rem]">
           <h1 className="h1 mb-6">
-            Explore the Possibilities of&nbsp;AI&nbsp;Chatting with {` `}
+            Step into the Future of&nbsp;AI&nbsp;Conversations with {` `}
             <span className="inline-block relative">
               AI-Moon{" "}
               <img
@@ -36,11 +36,13 @@ const Hero = () => {
             </span>
           </h1>
           <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
-            Unleash the power of AI within AI-Moon. Upgrade your productivity
-            with AI-Moon, the open AI chat app.
+            Elevate your productivity, streamline your tasks, and
+            experience the ultimate Open AI chat app designed to 
+            redefine the way you work and connect.
+            **AI-Moon** is your gateway to a smarter, more efficient future—start exploring today!
           </p>
           <Button href="/pricing" white>
-            Get started
+            Launch Now
           </Button>
         </div>
         <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24">
