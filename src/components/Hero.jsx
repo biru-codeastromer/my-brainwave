@@ -39,7 +39,7 @@ const Hero = () => {
             Elevate your productivity, streamline your tasks, and
             experience the ultimate Open AI chat app designed to 
             redefine the way you work and connect.
-            **AI-Moon** is your gateway to a smarter, more efficient future—start exploring today!
+            AI-Moon is your gateway to a smarter, more efficient future—start exploring today!
           </p>
           <Button href="/pricing" white>
             Launch Now
