@@ -78,9 +78,9 @@ export const notificationImages = [notification4, notification3, notification2];
 export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
 
 export const brainwaveServices = [
-  "Photo generating",
-  "Photo enhance",
-  "Seamless Integration",
+  "AI-Powered Image Generation",
+  "Advanced Photo Enhancement",
+  "Seamless System Integration",
 ];
 
 export const brainwaveServicesIcons = [
@@ -94,57 +94,61 @@ export const brainwaveServicesIcons = [
 export const roadmap = [
   {
     id: "0",
-    title: "Voice recognition",
-    text: "Enable the chatbot to understand and respond to voice commands, making it easier for users to interact with the app hands-free.",
+    title: "Voice Command Support",
+    text: "Implement advanced voice recognition technology, enabling users to interact with the chatbot hands-free for a seamless experience.",
     date: "May 2023",
-    status: "done",
+    status: "Completed",
     imageUrl: roadmap1,
     colorful: true,
   },
   {
     id: "1",
-    title: "Gamification",
-    text: "Add game-like elements, such as badges or leaderboards, to incentivize users to engage with the chatbot more frequently.",
+    title: "Engagement Gamification",
+    text: "Incorporate interactive game elements like badges and leaderboards to enhance user engagement and encourage frequent interactions.",
     date: "May 2023",
-    status: "progress",
+    status: "In Progress",
     imageUrl: roadmap2,
   },
   {
     id: "2",
-    title: "Chatbot customization",
-    text: "Allow users to customize the chatbot's appearance and behavior, making it more engaging and fun to interact with.",
+    title: "Advanced Customization",
+    text: "Introduce options for users to personalize the chatbot's UI and response style, creating a more tailored and enjoyable user experience.",
     date: "May 2023",
-    status: "done",
+    status: "Completed",
     imageUrl: roadmap3,
   },
   {
     id: "3",
-    title: "Integration with APIs",
-    text: "Allow the chatbot to access external data sources, such as weather APIs or news APIs, to provide more relevant recommendations.",
+    title: "API Integrations",
+    text: "Enable seamless integration with external APIs, such as weather and news services, for dynamic and context-aware responses.",
     date: "May 2023",
-    status: "progress",
+    status: "In Progress",
     imageUrl: roadmap4,
   },
 ];
 
+
 export const collabText =
-  "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
+  "Powered by intelligent automation and enterprise-grade security, AI-Moon is the ultimate solution for teams aiming to collaborate smarter and faster.";
 
 export const collabContent = [
   {
     id: "0",
     title: "Seamless Integration",
-    text: collabText,
+    text: "Effortlessly integrate AI-Moon into your workflow, ensuring compatibility with your existing tools and platforms.",
   },
   {
     id: "1",
-    title: "Smart Automation",
+    title: "Intelligent Automation",
+    text: "Streamline repetitive tasks with advanced AI automation, boosting productivity and efficiency across your team.",
   },
   {
     id: "2",
-    title: "Top-notch Security",
+    title: "Enterprise-Grade Security",
+    text: "Safeguard your data with cutting-edge encryption and robust security protocols, ensuring peace of mind for every interaction.",
   },
 ];
+
 
 export const collabApps = [
   {
@@ -209,34 +213,34 @@ export const pricing = [
   {
     id: "0",
     title: "Basic",
-    description: "AI chatbot, personalized recommendations",
-    price: "0",
+    description: "Core AI features with no cost, ideal for individuals exploring AI capabilities.",
+    price: "Free",
     features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
+      "Smart AI chatbot to handle basic queries efficiently.",
+      "Personalized recommendations tailored to your preferences.",
+      "Full access to core app functionalities at no cost.",
     ],
   },
   {
     id: "1",
     title: "Premium",
-    description: "Advanced AI chatbot, priority support, analytics dashboard",
-    price: "9.99",
+    description: "Enhanced AI tools with priority support and analytics for power users.",
+    price: "$9.99/month",
     features: [
-      "An advanced AI chatbot that can understand complex queries",
-      "An analytics dashboard to track your conversations",
-      "Priority support to solve issues quickly",
+      "Advanced AI chatbot capable of handling complex and nuanced queries.",
+      "Comprehensive analytics dashboard to monitor and analyze interactions.",
+      "Priority support for faster issue resolution and guidance.",
     ],
   },
   {
     id: "2",
     title: "Enterprise",
-    description: "Custom AI chatbot, advanced analytics, dedicated account",
-    price: null,
+    description: "Scalable AI solutions with customized features and dedicated support for businesses.",
+    price: "Custom Pricing",
     features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
+      "Customizable AI chatbot to meet unique business requirements.",
+      "Advanced analytics for deep insights into usage and trends.",
+      "Dedicated account management and personalized onboarding.",
     ],
   },
 ];
