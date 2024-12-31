@@ -1,4 +1,4 @@
-import { useLocation } from "react-router-dom";
+import { useLocation, NavLink } from "react-router-dom";
 import { disablePageScroll, enablePageScroll } from "scroll-lock";
 
 import { brainwave } from "../assets";
@@ -48,9 +48,9 @@ const Header = () => {
         >
           <div className="relative z-2 flex flex-col items-center justify-center m-auto lg:flex-row">
             {navigation.map((item) => (
-              <a
+              <NavLink
                 key={item.id}
-                href={item.url}
+                to={item.url}
                 onClick={handleClick}
                 className={`block relative font-code text-2xl uppercase text-n-1 transition-colors hover:text-color-1 nav-item-font ${
                   item.onlyMobile ? "lg:hidden" : ""
@@ -61,47 +61,38 @@ const Header = () => {
                 } lg:leading-5 lg:hover:text-n-1 xl:px-12`}
               >
                 {item.title}
-              </a>
+              </NavLink>
             ))}
-            <a
-              href="/about"
+            <NavLink
+              to="/login"
               onClick={handleClick}
               className={`block relative font-code text-2xl uppercase text-n-1 transition-colors hover:text-color-1 nav-item-font px-6 py-6 md:py-8 lg:-mr-0.25 lg:text-xs lg:font-semibold ${
-                pathname.pathname === "/about" ? "z-2 lg:text-n-1" : "lg:text-n-1/50"
+                pathname.pathname === "/login" ? "z-2 lg:text-n-1" : "lg:text-n-1/50"
               } lg:leading-5 lg:hover:text-n-1 xl:px-12`}
             >
-              About
-            </a>
-            <a
-              href="/contact"
+              Login
+            </NavLink>
+            <NavLink
+              to="/signup"
               onClick={handleClick}
               className={`block relative font-code text-2xl uppercase text-n-1 transition-colors hover:text-color-1 nav-item-font px-6 py-6 md:py-8 lg:-mr-0.25 lg:text-xs lg:font-semibold ${
-                pathname.pathname === "/contact" ? "z-2 lg:text-n-1" : "lg:text-n-1/50"
+                pathname.pathname === "/signup" ? "z-2 lg:text-n-1" : "lg:text-n-1/50"
               } lg:leading-5 lg:hover:text-n-1 xl:px-12`}
             >
-              Contact
-            </a>
-            <a
-              href="/features"
-              onClick={handleClick}
-              className={`block relative font-code text-2xl uppercase text-n-1 transition-colors hover:text-color-1 nav-item-font px-6 py-6 md:py-8 lg:-mr-0.25 lg:text-xs lg:font-semibold ${
-                pathname.pathname === "/features" ? "z-2 lg:text-n-1" : "lg:text-n-1/50"
-              } lg:leading-5 lg:hover:text-n-1 xl:px-12`}
-            >
-              Features
-            </a>
+              Signup
+            </NavLink>
           </div>
 
           <HamburgerMenu />
         </nav>
 
-        <a
-          href="#signup"
+        <NavLink
+          to="/signup"
           className="button hidden mr-8 text-n-1/50 transition-colors hover:text-n-1 lg:block nav-item-font"
         >
           New account
-        </a>
-        <Button className="hidden lg:flex nav-item-font" href="#login">
+        </NavLink>
+        <Button className="hidden lg:flex nav-item-font" href="/login">
           Sign in
         </Button>
 
