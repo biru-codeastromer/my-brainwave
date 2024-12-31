@@ -1,5 +1,3 @@
-import './SignIn.css'; // Create and style SignIn.css as needed
-
 const SignIn = () => {
   return (
     <div className="h-screen flex items-center justify-center bg-gray-100">
